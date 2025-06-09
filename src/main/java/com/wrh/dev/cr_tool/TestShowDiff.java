@@ -1,6 +1,7 @@
 package com.wrh.dev.cr_tool;
 
 public class TestShowDiff {
+    // 新加了一行注释,用于 diff
     // 声明一个 int 类型的成员变量
     private int myIntVariable;
 

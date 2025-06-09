@@ -11,6 +11,7 @@ import java.awt.event.KeyEvent;
 public class MyKeyListener implements ApplicationActivationListener {
     private final KeyEventDispatcher dispatcher = new MyKeyEventDispatcher();
     private final TestShowDiff testShowDiff = new TestShowDiff();
+    private final TestShowDiff testShowDiff2 = new TestShowDiff();
 
     @Override
     public void applicationActivated(@NotNull IdeFrame ideFrame) {
